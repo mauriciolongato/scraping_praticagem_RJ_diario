@@ -14,7 +14,7 @@ Então, sempre observe as mudanças no site
 
 # crontab
 
-*/30 * * * * cd /home/mauriciolongato/scraping_praticagem && /usr/bin/python3.5 ./scrap_rio_de_janeiro.py >> ./log/crontab_service 2>&1
+*/30 * * * * cd /home/mauriciolongato/scraping_praticagem_RJ_diario && /usr/bin/python3.5 ./scrap_rio_de_janeiro.py >> ./log/crontab_service 2>&1
 
 # Instalação
 (usando python3.5)
